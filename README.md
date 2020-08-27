@@ -8,5 +8,4 @@ mkdir -p _build
 cd _build
 cmake .. -G Ninja -DCMAKE_TOOLCHAIN_FILE=../cmake/arm-gcc-toolchain.cmake
 cmake --build .
-cmake --build . --target app
 ```
